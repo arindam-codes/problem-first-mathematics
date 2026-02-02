@@ -1,129 +1,121 @@
-# Applications of Differentiation  
-**MIT 18.01 × James Stewart (Early Transcendentals)**  
-**CS50-Style Problem-First Study Plan**
+# 🔥 Applications of Differentiation
 
-This repository documents my structured study of **Chapter 4: Applications of Differentiation** from  
-*James Stewart – Early Transcendentals*, aligned with **MIT 18.01 (Single Variable Calculus)**.
+## **3-Day Plan (MIT 18.01 Sessions 10–16)**
 
-The approach follows a **CS50-style methodology**:
-- Concepts are treated like algorithms
-- Emphasis is placed on problem-solving, reasoning, and debugging
-- Theory is learned only to the extent needed to solve meaningful problems
+**CS50-Style · Theory First → Problems Later · Low Cognitive Load**
 
 ---
 
-## 📌 Study Philosophy
+## 🟥 Day 1 — Shape, Extremes & Guarantees
 
-- Learn by **deriving**, not memorizing
-- Treat calculus concepts as **logical systems**
-- Focus on **why** methods work, not just how
-- Prefer **hand analysis first**, technology only for verification
-- Model real-world problems before applying calculus tools
+**Mental mode:** *“What does the function do, and must it do it?”*
 
----
+### Theory (MIT first — in this order)
 
-## 📅 4-Day Deep-Dive Structure
+* **Session 10 — Curve Sketching**
 
-### 🔴 Day 1 — Logic & Guarantees
-**Sections Covered**
-- 4.1 Maximum and Minimum Values
-- 4.2 The Mean Value Theorem
+  * Increasing / decreasing
+  * Concavity
+  * Inflection points
+* **Session 11 — Max–Min Problems**
 
-**Focus**
-- Critical points and endpoints
-- Absolute vs local extrema
-- Mean Value Theorem as an existence guarantee
+  * Critical points
+  * Global vs local extrema
+* **Session 14 — Mean Value Theorem & Inequalities**
 
-**Goal**
-> Be able to prove when a function must attain a maximum or minimum using only assumptions (continuity and differentiability).
+  * Existence guarantees
+  * Average vs instantaneous change
 
----
+### Why this grouping works
 
-### 🟠 Day 2 — Shape & Visualization
-**Sections Covered**
-- 4.3 What Derivatives Tell Us About the Shape of a Graph
-- 4.5 Summary of Curve Sketching
-- 4.6 Graphing with Calculus and Technology
+* Curve sketching → what is possible
+* Max–min → where extremes occur
+* MVT → why an extreme must exist
 
-**Focus**
-- First derivative → monotonicity
-- Second derivative → concavity
-- Inflection points and asymptotic behavior
+**Unified idea:** behavior + guarantees
 
-**Goal**
-> Sketch a function accurately using only derivative information, without plotting points.
+### Problems (after all theory)
 
----
+* *James Stewart*:
 
-### 🟡 Day 3 — Optimization (Modeling Reality)
-**Sections Covered**
-- 4.7 Optimization Problems
-- Applied Projects:
-  - The Shape of a Can
-  - Planes and Birds: Minimizing Energy
+  * Curve sketching (no calculator first)
+  * Absolute extrema problems
+  * Mean Value Theorem reasoning problems
 
-**Focus**
-- Translating word problems into mathematical models
-- Objective functions and constraints
-- Validating solutions using physical and dimensional reasoning
+### 🎯 End-of-Day Test
 
-**Goal**
-> Solve real-world optimization problems and justify why the solution makes sense beyond calculus.
+> Given only derivative information, can I predict shape **and** justify existence of extrema?
 
 ---
 
-### 🟢 Day 4 — Failure, Approximation & Reversal
-**Sections Covered**
-- 4.4 Indeterminate Forms and l’Hospital’s Rule
-- 4.8 Newton’s Method
-- 4.9 Antiderivatives
-- Review & Problems Plus
+## 🟧 Day 2 — Change Propagation & Numerical Thinking
 
-**Focus**
-- Handling indeterminate limits
-- Iterative numerical root-finding
-- Reconstructing functions from derivatives
+**Mental mode:** *“How does change move through a system?”*
 
-**Goal**
-> Understand how calculus handles failure cases and why numerical methods are essential in computation.
+### Theory
 
----
+* **Session 12 — Related Rates**
 
-## 🛠️ Problem-Solving Method (CS50 Style)
+  * Chain rule as dependency tracking
+  * Time-based change
+* **Session 13 — Newton’s Method**
 
-Before solving any problem:
-1. Identify what is **given**
-2. Identify what must be **found**
-3. Write a **plan** (pseudocode-style)
-4. Solve symbolically
-5. Verify the result (units, reasonableness, graph if needed)
+  * Iterative improvement
+  * Convergence and failure
 
----
+### Why together
 
-## 🧪 Tools Used
+* Related rates → exact change relationships
+* Newton’s method → approximate change via iteration
 
-- Paper & pen (primary)
-- Desmos / Graphing Calculator (verification only)
-- MIT 18.01 lecture notes (concept alignment)
-- James Stewart textbook (problem source)
+**Same thinking, different precision**
 
----
+### Problems
 
-## 🎯 Mastery Criteria
+* *James Stewart*:
 
-This chapter is considered mastered when I can:
-- Explain derivative-based reasoning verbally
-- Sketch graphs from derivative data alone
-- Model and solve optimization problems independently
-- Apply numerical methods and recognize their limitations
+  * Related rate word problems (draw diagrams first)
+  * Newton iteration problems
+  * Analyze divergence / slow convergence
+
+### 🎯 End-of-Day Test
+
+> Can I explain *why* a quantity changes, not just compute its rate?
 
 ---
 
-## 📚 Reference
+## 🟩 Day 3 — From Rates to Laws (Reverse Thinking)
 
-- *James Stewart, Calculus: Early Transcendentals*
-- MIT OpenCourseWare — **18.01 Single Variable Calculus**
+**Mental mode:** *“Given how something changes, what is the system?”*
+
+### Theory
+
+* **Session 15 — Differentials & Antiderivatives**
+
+  * Differentials as small physical changes
+  * Reverse direction of differentiation
+* **Session 16 — Differential Equations**
+
+  * Separation of variables
+  * Modeling laws of change
+
+### Why together
+
+* Differentials → local change
+* Differential equations → global change law
+
+**Natural inversion of earlier ideas**
+
+### Problems
+
+* *James Stewart*:
+
+  * Differential approximation and error
+  * Simple separable differential equations
+  * Physical interpretation problems
+
+### 🎯 End-of-Day Test
+
+> Can I write a differential equation from a physical rule and solve it cleanly?
 
 ---
-
-*This repository emphasizes understanding over speed and reasoning over memorization.*
